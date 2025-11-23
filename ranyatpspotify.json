@@ -1,0 +1,2964 @@
+{
+	"info": {
+		"_postman_id": "5cbee812-e529-4f11-a97a-946da0ea98de",
+		"name": "API SPOTIFY",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50122745",
+		"_collection_link": "https://ranya-aitgaghou-7253484.postman.co/workspace/d55067aa-5044-4ac4-8233-c15b142fe60f/collection/50122745-5cbee812-e529-4f11-a97a-946da0ea98de?action=share&source=collection_link&creator=50122745"
+	},
+	"item": [
+		{
+			"name": "Q3",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Q9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQD9C_6oD2fXT1IYtIOTe4hX_kZjeX3HbnDiViUhNythT3WEoEVp41xyOVzY31LRqdsaYfp3LtiCrqAKtncyqhVoWkAYdcqbPaFA9YiUlUh3HR9di0GdAD9vCQjtQrjOEwQeaVFtwus"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3&market=FR%0A",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						},
+						{
+							"key": "market",
+							"value": "FR\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Q8",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer.BQD9C_6oD2fXT1IYtIOTe4hX_kZjeX3HbnDiViUhNythT3WEoEVp41xyOVzY31LRqdsaYfp3LtiCrqAKtncyqhVoWkAYdcqbPaFA9YiUlUh3HR9di0GdAD9vCQjtQrjOEwQeaVFtwus\" ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/browse/new-releases?country=FR&limit=10\n",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"browse",
+						"new-releases"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "FR"
+						},
+						{
+							"key": "limit",
+							"value": "10\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Q7",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQD9C_6oD2fXT1IYtIOTe4hX_kZjeX3HbnDiViUhNythT3WEoEVp41xyOVzY31LRqdsaYfp3LtiCrqAKtncyqhVoWkAYdcqbPaFA9YiUlUh3HR9di0GdAD9vCQjtQrjOEwQeaVFtwus"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/artists/4ObaHfJvOEc3fBz9brt0fB/related-artists",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"artists",
+						"4ObaHfJvOEc3fBz9brt0fB",
+						"related-artists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Q6",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQD9C_6oD2fXT1IYtIOTe4hX_kZjeX3HbnDiViUhNythT3WEoEVp41xyOVzY31LRqdsaYfp3LtiCrqAKtncyqhVoWkAYdcqbPaFA9YiUlUh3HR9di0GdAD9vCQjtQrjOEwQeaVFtwus"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/search?q=Impardonnable%20Damso&type=track&limit=1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Impardonnable Damso"
+						},
+						{
+							"key": "type",
+							"value": "track"
+						},
+						{
+							"key": "limit",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Q4",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQD9C_6oD2fXT1IYtIOTe4hX_kZjeX3HbnDiViUhNythT3WEoEVp41xyOVzY31LRqdsaYfp3LtiCrqAKtncyqhVoWkAYdcqbPaFA9YiUlUh3HR9di0GdAD9vCQjtQrjOEwQeaVFtwus"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Impardonnable%2520Damso&type=track&limit=1",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Impardonnable%20Damso"
+						},
+						{
+							"key": "type",
+							"value": "track"
+						},
+						{
+							"key": "limit",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 2",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "https://open.spotify.com/artist/0TnOYISbd1XYRBk9myaseg",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQD9C_6oD2fXT1IYtIOTe4hX_kZjeX3HbnDiViUhNythT3WEoEVp41xyOVzY31LRqdsaYfp3LtiCrqAKtncyqhVoWkAYdcqbPaFA9YiUlUh3HR9di0GdAD9vCQjtQrjOEwQeaVFtwus"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.spotify.com/v1/search?q=Damso&type=artist&limit=3",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://open.spotify.com/artist/0TnOYISbd1XYRBk9myaseg",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQD9C_6oD2fXT1IYtIOTe4hX_kZjeX3HbnDiViUhNythT3WEoEVp41xyOVzY31LRqdsaYfp3LtiCrqAKtncyqhVoWkAYdcqbPaFA9YiUlUh3HR9di0GdAD9vCQjtQrjOEwQeaVFtwus"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://open.spotify.com/artist/0TnOYISbd1XYRBk9myaseg",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "baerer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://open.spotify.com/artist/0TnOYISbd1XYRBk9myaseg",
+					"protocol": "https",
+					"host": [
+						"open",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"artist",
+						"0TnOYISbd1XYRBk9myaseg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://open.spotify.com/artist/0TnOYISbd1XYRBk9myaseg",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQD9C_6oD2fXT1IYtIOTe4hX_kZjeX3HbnDiViUhNythT3WEoEVp41xyOVzY31LRqdsaYfp3LtiCrqAKtncyqhVoWkAYdcqbPaFA9YiUlUh3HR9di0GdAD9vCQjtQrjOEwQeaVFtwus"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://accounts.spotify.com/api/token?grant_type=client_credentials&client_id=896adde19c6c4f3dbc61a4ef05c594f1&client_secret=7c619f8f79ac4e99929f035643a52aed",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "f6ce3e0d85e9402d9b05b805834ad69f",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "6ecdeb7f79bc46088d1e57a5549f533c",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://accounts.spotify.com/api/token",
+					"protocol": "https",
+					"host": [
+						"accounts",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"api",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/search",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://accounts.spotify.com/api/token?grant_type=client_credentials&client_id=896adde19c6c4f3dbc61a4ef05c594f1&client_secret=7c619f8f79ac4e99929f035643a52aed",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://accounts.spotify.com/api/token?grant_type=client_credentials&client_id=896adde19c6c4f3dbc61a4ef05c594f1&client_secret=7c619f8f79ac4e99929f035643a52aed",
+					"protocol": "https",
+					"host": [
+						"accounts",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"api",
+						"token"
+					],
+					"query": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials"
+						},
+						{
+							"key": "client_id",
+							"value": "896adde19c6c4f3dbc61a4ef05c594f1"
+						},
+						{
+							"key": "client_secret",
+							"value": "7c619f8f79ac4e99929f035643a52aed"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://accounts.spotify.com/api/token?grant_type=client_credentials&client_id=896adde19c6c4f3dbc61a4ef05c594f1&client_secret=7c619f8f79ac4e99929f035643a52aed",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://accounts.spotify.com/api/token?grant_type=client_credentials&client_id=896adde19c6c4f3dbc61a4ef05c594f1&client_secret=7c619f8f79ac4e99929f035643a52aed",
+					"protocol": "https",
+					"host": [
+						"accounts",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"api",
+						"token"
+					],
+					"query": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials"
+						},
+						{
+							"key": "client_id",
+							"value": "896adde19c6c4f3dbc61a4ef05c594f1"
+						},
+						{
+							"key": "client_secret",
+							"value": "7c619f8f79ac4e99929f035643a52aed"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://accounts.spotify.com/api/token?grant_type=client_credentials&client_id=896adde19c6c4f3dbc61a4ef05c594f1&client_secret=7c619f8f79ac4e99929f035643a52aed",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://accounts.spotify.com/api/token?grant_type=client_credentials&client_id=896adde19c6c4f3dbc61a4ef05c594f1&client_secret=7c619f8f79ac4e99929f035643a52aed",
+					"protocol": "https",
+					"host": [
+						"accounts",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"api",
+						"token"
+					],
+					"query": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials"
+						},
+						{
+							"key": "client_id",
+							"value": "896adde19c6c4f3dbc61a4ef05c594f1"
+						},
+						{
+							"key": "client_secret",
+							"value": "7c619f8f79ac4e99929f035643a52aed"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://open.spotify.com/artist/0TnOYISbd1XYRBk9myaseg",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "BQCazurq_WCjS96Fwqjr-kOMVDBPouBmPEG01xk5lCWpmtioqrUygORyDxKDi3v5GIXjojoLZ30Y2bdB-KSCS6Udb04cohdyaf_S8gWt-ppRTdng5LI3S4vBoSukbpXxLAZ2SI8eTU8",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "spotify-token ",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "refresh_token",
+							"type": "any"
+						},
+						{
+							"key": "expires_in",
+							"value": 3600,
+							"type": "number"
+						},
+						{
+							"key": "token_id",
+							"value": "c1648262-58b3-41ea-b2ea-13e78c042d01",
+							"type": "string"
+						},
+						{
+							"key": "timestamp",
+							"value": 1763631041002,
+							"type": "number"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://accounts.spotify.com/api/token",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "f6ce3e0d85e9402d9b05b805834ad69f",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "6ecdeb7f79bc46088d1e57a5549f533c",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "id",
+							"value": "request/f3de86ed-c8a0-4464-9c05-dc3adef26ea1/d55067aa-5044-4ac4-8233-c15b142fe60f",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "baerer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://open.spotify.com/artist/0TnOYISbd1XYRBk9myaseg",
+					"protocol": "https",
+					"host": [
+						"open",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"artist",
+						"0TnOYISbd1XYRBk9myaseg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Authorization: Bearer ton_token_iciAuthorization: Bearer ton_token_ici",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "BQCazurq_WCjS96Fwqjr-kOMVDBPouBmPEG01xk5lCWpmtioqrUygORyDxKDi3v5GIXjojoLZ30Y2bdB-KSCS6Udb04cohdyaf_S8gWt-ppRTdng5LI3S4vBoSukbpXxLAZ2SI8eTU8",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "spotify-token ",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "refresh_token",
+							"type": "any"
+						},
+						{
+							"key": "expires_in",
+							"value": 3600,
+							"type": "number"
+						},
+						{
+							"key": "token_id",
+							"value": "c1648262-58b3-41ea-b2ea-13e78c042d01",
+							"type": "string"
+						},
+						{
+							"key": "timestamp",
+							"value": 1763631041002,
+							"type": "number"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://accounts.spotify.com/api/token",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "f6ce3e0d85e9402d9b05b805834ad69f",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "6ecdeb7f79bc46088d1e57a5549f533c",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "id",
+							"value": "request/f3de86ed-c8a0-4464-9c05-dc3adef26ea1/d55067aa-5044-4ac4-8233-c15b142fe60f",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQD9C_6oD2fXT1IYtIOTe4hX_kZjeX3HbnDiViUhNythT3WEoEVp41xyOVzY31LRqdsaYfp3LtiCrqAKtncyqhVoWkAYdcqbPaFA9YiUlUh3HR9di0GdAD9vCQjtQrjOEwQeaVFtwus"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Authorization: Bearer Authorization: Bearer BQD6puEtJZZgs_UXQCUvEH_2nBrRjWoo2Pwnm9uoLcK8aIY3uiBBVdXrK9s48TKEBWr1m2WhBn-_1mQJw-1rr0af82rIHCb54gzRoePOGmkymCIj6Xd7K34bqICz_v4GWDJm4zgyVpM",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "BQD6puEtJZZgs_UXQCUvEH_2nBrRjWoo2Pwnm9uoLcK8aIY3uiBBVdXrK9s48TKEBWr1m2WhBn-_1mQJw-1rr0af82rIHCb54gzRoePOGmkymCIj6Xd7K34bqICz_v4GWDJm4zgyVpM",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "spotify-token ",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "refresh_token",
+							"type": "any"
+						},
+						{
+							"key": "expires_in",
+							"value": 3600,
+							"type": "number"
+						},
+						{
+							"key": "token_id",
+							"value": "85dd0393-62fd-4d44-a532-5a52c2c901da",
+							"type": "string"
+						},
+						{
+							"key": "timestamp",
+							"value": 1763631262946,
+							"type": "number"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://accounts.spotify.com/api/token",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "f6ce3e0d85e9402d9b05b805834ad69f",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "6ecdeb7f79bc46088d1e57a5549f533c",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "id",
+							"value": "request/f3de86ed-c8a0-4464-9c05-dc3adef26ea1/d55067aa-5044-4ac4-8233-c15b142fe60f",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQD9C_6oD2fXT1IYtIOTe4hX_kZjeX3HbnDiViUhNythT3WEoEVp41xyOVzY31LRqdsaYfp3LtiCrqAKtncyqhVoWkAYdcqbPaFA9YiUlUh3HR9di0GdAD9vCQjtQrjOEwQeaVFtwus"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Authorization: Bearer Authorization: BearerBQD6puEtJZZgs_UXQCUvEH_2nBrRjWoo2Pwnm9uoLcK8aIY3uiBBVdXrK9s48TKEBWr1m2WhBn-_1mQJw-1rr0af82rIHCb54gzRoePOGmkymCIj6Xd7K34bqICz_v4GWDJm4zgyVpM",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "BQD6puEtJZZgs_UXQCUvEH_2nBrRjWoo2Pwnm9uoLcK8aIY3uiBBVdXrK9s48TKEBWr1m2WhBn-_1mQJw-1rr0af82rIHCb54gzRoePOGmkymCIj6Xd7K34bqICz_v4GWDJm4zgyVpM",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "spotify-token ",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "refresh_token",
+							"type": "any"
+						},
+						{
+							"key": "expires_in",
+							"value": 3600,
+							"type": "number"
+						},
+						{
+							"key": "token_id",
+							"value": "85dd0393-62fd-4d44-a532-5a52c2c901da",
+							"type": "string"
+						},
+						{
+							"key": "timestamp",
+							"value": 1763631262946,
+							"type": "number"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://accounts.spotify.com/api/token",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "f6ce3e0d85e9402d9b05b805834ad69f",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "6ecdeb7f79bc46088d1e57a5549f533c",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "id",
+							"value": "request/f3de86ed-c8a0-4464-9c05-dc3adef26ea1/d55067aa-5044-4ac4-8233-c15b142fe60f",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "baerer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "Authorization: Bearer Authorization: BearerBQD6puEtJZZgs_UXQCUvEH_2nBrRjWoo2Pwnm9uoLcK8aIY3uiBBVdXrK9s48TKEBWr1m2WhBn-_1mQJw-1rr0af82rIHCb54gzRoePOGmkymCIj6Xd7K34bqICz_v4GWDJm4zgyVpM",
+					"host": [
+						"Authorization: Bearer Authorization"
+					],
+					"port": " BearerBQD6puEtJZZgs_UXQCUvEH_2nBrRjWoo2Pwnm9uoLcK8aIY3uiBBVdXrK9s48TKEBWr1m2WhBn-_1mQJw-1rr0af82rIHCb54gzRoePOGmkymCIj6Xd7K34bqICz_v4GWDJm4zgyVpM"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Authorization: Bearer Authorization: Bearer BQD6puEtJZZgs_UXQCUvEH_2nBrRjWoo2Pwnm9uoLcK8aIY3uiBBVdXrK9s48TKEBWr1m2WhBn-_1mQJw-1rr0af82rIHCb54gzRoePOGmkymCIj6Xd7K34bqICz_v4GWDJm4zgyVpM",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "BQD6puEtJZZgs_UXQCUvEH_2nBrRjWoo2Pwnm9uoLcK8aIY3uiBBVdXrK9s48TKEBWr1m2WhBn-_1mQJw-1rr0af82rIHCb54gzRoePOGmkymCIj6Xd7K34bqICz_v4GWDJm4zgyVpM",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "spotify-token ",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "refresh_token",
+							"type": "any"
+						},
+						{
+							"key": "expires_in",
+							"value": 3600,
+							"type": "number"
+						},
+						{
+							"key": "token_id",
+							"value": "85dd0393-62fd-4d44-a532-5a52c2c901da",
+							"type": "string"
+						},
+						{
+							"key": "timestamp",
+							"value": 1763631262946,
+							"type": "number"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://accounts.spotify.com/api/token",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "f6ce3e0d85e9402d9b05b805834ad69f",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "6ecdeb7f79bc46088d1e57a5549f533c",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "id",
+							"value": "request/f3de86ed-c8a0-4464-9c05-dc3adef26ea1/d55067aa-5044-4ac4-8233-c15b142fe60f",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "baerer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "Authorization: Bearer Authorization: Bearer BQD6puEtJZZgs_UXQCUvEH_2nBrRjWoo2Pwnm9uoLcK8aIY3uiBBVdXrK9s48TKEBWr1m2WhBn-_1mQJw-1rr0af82rIHCb54gzRoePOGmkymCIj6Xd7K34bqICz_v4GWDJm4zgyVpM",
+					"host": [
+						"Authorization: Bearer Authorization"
+					],
+					"port": " Bearer BQD6puEtJZZgs_UXQCUvEH_2nBrRjWoo2Pwnm9uoLcK8aIY3uiBBVdXrK9s48TKEBWr1m2WhBn-_1mQJw-1rr0af82rIHCb54gzRoePOGmkymCIj6Xd7K34bqICz_v4GWDJm4zgyVpM"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/search?q=Damso&type=artist&limit=3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "BQCazurq_WCjS96Fwqjr-kOMVDBPouBmPEG01xk5lCWpmtioqrUygORyDxKDi3v5GIXjojoLZ30Y2bdB-KSCS6Udb04cohdyaf_S8gWt-ppRTdng5LI3S4vBoSukbpXxLAZ2SI8eTU8",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "spotify-token ",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "refresh_token",
+							"type": "any"
+						},
+						{
+							"key": "expires_in",
+							"value": 3600,
+							"type": "number"
+						},
+						{
+							"key": "token_id",
+							"value": "c1648262-58b3-41ea-b2ea-13e78c042d01",
+							"type": "string"
+						},
+						{
+							"key": "timestamp",
+							"value": 1763631041002,
+							"type": "number"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://accounts.spotify.com/api/token",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "f6ce3e0d85e9402d9b05b805834ad69f",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "6ecdeb7f79bc46088d1e57a5549f533c",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "id",
+							"value": "request/f3de86ed-c8a0-4464-9c05-dc3adef26ea1/d55067aa-5044-4ac4-8233-c15b142fe60f",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQD9C_6oD2fXT1IYtIOTe4hX_kZjeX3HbnDiViUhNythT3WEoEVp41xyOVzY31LRqdsaYfp3LtiCrqAKtncyqhVoWkAYdcqbPaFA9YiUlUh3HR9di0GdAD9vCQjtQrjOEwQeaVFtwus"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/search?q=Damso&type=artist&limit=3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "BQCazurq_WCjS96Fwqjr-kOMVDBPouBmPEG01xk5lCWpmtioqrUygORyDxKDi3v5GIXjojoLZ30Y2bdB-KSCS6Udb04cohdyaf_S8gWt-ppRTdng5LI3S4vBoSukbpXxLAZ2SI8eTU8",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "spotify-token ",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "refresh_token",
+							"type": "any"
+						},
+						{
+							"key": "expires_in",
+							"value": 3600,
+							"type": "number"
+						},
+						{
+							"key": "token_id",
+							"value": "c1648262-58b3-41ea-b2ea-13e78c042d01",
+							"type": "string"
+						},
+						{
+							"key": "timestamp",
+							"value": 1763631041002,
+							"type": "number"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://accounts.spotify.com/api/token",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "f6ce3e0d85e9402d9b05b805834ad69f",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "6ecdeb7f79bc46088d1e57a5549f533c",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "id",
+							"value": "request/f3de86ed-c8a0-4464-9c05-dc3adef26ea1/d55067aa-5044-4ac4-8233-c15b142fe60f",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQD9C_6oD2fXT1IYtIOTe4hX_kZjeX3HbnDiViUhNythT3WEoEVp41xyOVzY31LRqdsaYfp3LtiCrqAKtncyqhVoWkAYdcqbPaFA9YiUlUh3HR9di0GdAD9vCQjtQrjOEwQeaVFtwus"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/search?q=Damso&type=artist&limit=3https://api.spotify.com/v1/search?q=Damso&type=artist&limit=3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "BQCazurq_WCjS96Fwqjr-kOMVDBPouBmPEG01xk5lCWpmtioqrUygORyDxKDi3v5GIXjojoLZ30Y2bdB-KSCS6Udb04cohdyaf_S8gWt-ppRTdng5LI3S4vBoSukbpXxLAZ2SI8eTU8",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "spotify-token ",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "refresh_token",
+							"type": "any"
+						},
+						{
+							"key": "expires_in",
+							"value": 3600,
+							"type": "number"
+						},
+						{
+							"key": "token_id",
+							"value": "c1648262-58b3-41ea-b2ea-13e78c042d01",
+							"type": "string"
+						},
+						{
+							"key": "timestamp",
+							"value": 1763631041002,
+							"type": "number"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://accounts.spotify.com/api/token",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "f6ce3e0d85e9402d9b05b805834ad69f",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "6ecdeb7f79bc46088d1e57a5549f533c",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "id",
+							"value": "request/f3de86ed-c8a0-4464-9c05-dc3adef26ea1/d55067aa-5044-4ac4-8233-c15b142fe60f",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQD9C_6oD2fXT1IYtIOTe4hX_kZjeX3HbnDiViUhNythT3WEoEVp41xyOVzY31LRqdsaYfp3LtiCrqAKtncyqhVoWkAYdcqbPaFA9YiUlUh3HR9di0GdAD9vCQjtQrjOEwQeaVFtwus"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/search?q=Damso&type=artist&limit=3https://api.spotify.com/v1/search?q=Damso&type=artist&limit=3`",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "BQCazurq_WCjS96Fwqjr-kOMVDBPouBmPEG01xk5lCWpmtioqrUygORyDxKDi3v5GIXjojoLZ30Y2bdB-KSCS6Udb04cohdyaf_S8gWt-ppRTdng5LI3S4vBoSukbpXxLAZ2SI8eTU8",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "spotify-token ",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "refresh_token",
+							"type": "any"
+						},
+						{
+							"key": "expires_in",
+							"value": 3600,
+							"type": "number"
+						},
+						{
+							"key": "token_id",
+							"value": "c1648262-58b3-41ea-b2ea-13e78c042d01",
+							"type": "string"
+						},
+						{
+							"key": "timestamp",
+							"value": 1763631041002,
+							"type": "number"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://accounts.spotify.com/api/token",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "f6ce3e0d85e9402d9b05b805834ad69f",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "6ecdeb7f79bc46088d1e57a5549f533c",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "id",
+							"value": "request/f3de86ed-c8a0-4464-9c05-dc3adef26ea1/d55067aa-5044-4ac4-8233-c15b142fe60f",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQD9C_6oD2fXT1IYtIOTe4hX_kZjeX3HbnDiViUhNythT3WEoEVp41xyOVzY31LRqdsaYfp3LtiCrqAKtncyqhVoWkAYdcqbPaFA9YiUlUh3HR9di0GdAD9vCQjtQrjOEwQeaVFtwus"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/search?q=Damso&type=artist&limit=3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "BQAsgbiIjp72wnZI3c6_cyv0AsiyAIs_tuApfc2tVhbpSB8RXfPbAo-CwmeJyExo56xNV4czR1T1ems6b7RokLGZLfuh2lP9UtDTcZ4AR_7rP4mqpNGgdmtiwtKhkC-6YUWGzHK7fD4",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "spotify-token ",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "refresh_token",
+							"type": "any"
+						},
+						{
+							"key": "expires_in",
+							"value": 3600,
+							"type": "number"
+						},
+						{
+							"key": "token_id",
+							"value": "3ae9b84f-0965-49a4-9d04-03cf5aad4d77",
+							"type": "string"
+						},
+						{
+							"key": "timestamp",
+							"value": 1763630963483,
+							"type": "number"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://accounts.spotify.com/api/token",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "f6ce3e0d85e9402d9b05b805834ad69f",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "6ecdeb7f79bc46088d1e57a5549f533c",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "id",
+							"value": "request/f3de86ed-c8a0-4464-9c05-dc3adef26ea1/d55067aa-5044-4ac4-8233-c15b142fe60f",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "baerer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/search?q=Damso&type=artist&limit=3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "BQAsgbiIjp72wnZI3c6_cyv0AsiyAIs_tuApfc2tVhbpSB8RXfPbAo-CwmeJyExo56xNV4czR1T1ems6b7RokLGZLfuh2lP9UtDTcZ4AR_7rP4mqpNGgdmtiwtKhkC-6YUWGzHK7fD4",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "spotify-token ",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "refresh_token",
+							"type": "any"
+						},
+						{
+							"key": "expires_in",
+							"value": 3600,
+							"type": "number"
+						},
+						{
+							"key": "token_id",
+							"value": "3ae9b84f-0965-49a4-9d04-03cf5aad4d77",
+							"type": "string"
+						},
+						{
+							"key": "timestamp",
+							"value": 1763630963483,
+							"type": "number"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://accounts.spotify.com/api/token",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "f6ce3e0d85e9402d9b05b805834ad69f",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "6ecdeb7f79bc46088d1e57a5549f533c",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "id",
+							"value": "request/f3de86ed-c8a0-4464-9c05-dc3adef26ea1/d55067aa-5044-4ac4-8233-c15b142fe60f",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "baerer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/search?q=Damso&type=artist&limit=3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "baerer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/search?q=Damso&type=artist&limit=3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "baerer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://accounts.spotify.com/api/token",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "baerer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://accounts.spotify.com/api/token",
+					"protocol": "https",
+					"host": [
+						"accounts",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"api",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://accounts.spotify.com/api/token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "baerer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://accounts.spotify.com/api/token",
+					"protocol": "https",
+					"host": [
+						"accounts",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"api",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://kitsu.io/api/oauth/token",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {",
+							"    pm.expect(pm.response.code).to.be.oneOf([200, 201]);",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Add your name in the body\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://kitsu.io/api/oauth/token",
+					"protocol": "https",
+					"host": [
+						"kitsu",
+						"io"
+					],
+					"path": [
+						"api",
+						"oauth",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://kitsu.io/api/oauth/token",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://kitsu.io/api/oauth/token",
+					"protocol": "https",
+					"host": [
+						"kitsu",
+						"io"
+					],
+					"path": [
+						"api",
+						"oauth",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https: / /kitsu.io/api/oauth/token",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https: / /kitsu.io/api/oauth/token",
+					"host": [
+						"https"
+					],
+					"port": " ",
+					"path": [
+						" ",
+						"kitsu.io",
+						"api",
+						"oauth",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https:/ /kitsu.io/api/oauth/token",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https:/ /kitsu.io/api/oauth/token",
+					"host": [
+						"https"
+					],
+					"port": "",
+					"path": [
+						" ",
+						"kitsu.io",
+						"api",
+						"oauth",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://kitsu.io/api/oauth/token",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://kitsu.io/api/oauth/token",
+					"protocol": "https",
+					"host": [
+						"kitsu",
+						"io"
+					],
+					"path": [
+						"api",
+						"oauth",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "?grant_type=passworld&username=ranya.aitgaghou@ynov.com&passworld=Toutou0511",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "ranya.aitgaghou@ynov.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Toutou0511",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://kitsu.io/api/oauth/token?grant_type=passworld&username=ranya.aitgaghou@ynov.com&passworld=Toutou0511",
+					"protocol": "https",
+					"host": [
+						"kitsu",
+						"io"
+					],
+					"path": [
+						"api",
+						"oauth",
+						"token"
+					],
+					"query": [
+						{
+							"key": "grant_type",
+							"value": "passworld"
+						},
+						{
+							"key": "username",
+							"value": "ranya.aitgaghou@ynov.com"
+						},
+						{
+							"key": "passworld",
+							"value": "Toutou0511"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/search?q=damso&type=artist",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer $TOKEN",
+						"description": "Authorization: Bearer TON_TOKEN_ICI"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=damso&type=artist",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/search?q=damso&type=artist",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer $TOKEN"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=damso&type=artist",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/search?q=Damso&type=artist&limit=3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer $TOKEN"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/search?q=Damso&type=artist&limit=3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/search?q=Damso&type=artist&limit=3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/search?q=Damso&type=artist&limit=3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer $TOKEN"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "q",
+							"value": "Damso",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "artist",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET https://api.spotify.com/v1/search\nParams: q=Damso, type=artist, limit=3",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQD9C_6oD2fXT1IYtIOTe4hX_kZjeX3HbnDiViUhNythT3WEoEVp41xyOVzY31LRqdsaYfp3LtiCrqAKtncyqhVoWkAYdcqbPaFA9YiUlUh3HR9di0GdAD9vCQjtQrjOEwQeaVFtwus"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/v1/search?q=Damso&type=artist&limit=3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Damso"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "?q%3DDamso",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "896adde19c6c4f3dbc61a4ef05c594f1",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "7c619f8f79ac4e99929f035643a52aed",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic $(echo -n $SPOTIFY_ID:$SPOTIFY_SECRET | base64)"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://accounts.spotify.com/api/token?q%3DDamso",
+					"protocol": "https",
+					"host": [
+						"accounts",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"api",
+						"token"
+					],
+					"query": [
+						{
+							"key": "q%3DDamso",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET https://api.spotify.com/v1/search\nParams: q=Damso, type=artist, limit=3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic $(echo -n $SPOTIFY_ID:$SPOTIFY_SECRET | base64)"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "GET https://api.spotify.com/v1/search\nParams: q=Damso, type=artist, limit=3",
+					"protocol": "GET https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"search\nParams: q=Damso, type=artist, limit=3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://accounts.spotify.com/api/token",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic $(echo -n $SPOTIFY_ID:$SPOTIFY_SECRET | base64)"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://accounts.spotify.com/api/token",
+					"protocol": "https",
+					"host": [
+						"accounts",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"api",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://accounts.spotify.com/api/token",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic $(echo -n $SPOTIFY_ID:$SPOTIFY_SECRET | base64)"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://accounts.spotify.com/api/token",
+					"protocol": "https",
+					"host": [
+						"accounts",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"api",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Q5 - Get Album (Fixed)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQD9C_6oD2fXT1IYtIOTe4hX_kZjeX3HbnDiViUhNythT3WEoEVp41xyOVzY31LRqdsaYfp3LtiCrqAKtncyqhVoWkAYdcqbPaFA9YiUlUh3HR9di0GdAD9vCQjtQrjOEwQeaVFtwus"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/albums/4beTtJKeg3ITJsiVuxkiV0",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"albums",
+						"4beTtJKeg3ITJsiVuxkiV0"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "",
+			"type": "default"
+		}
+	]
+}
