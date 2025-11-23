@@ -60,7 +60,7 @@ func DamsoHandler(w http.ResponseWriter, r *http.Request) {
 
     albumsData, _ := SpotifyRequest(albumsURL)
 
-    var albumResponse struct {
+    var albumResponse struct}
         Items []Album `json:"items"`
     }
 
